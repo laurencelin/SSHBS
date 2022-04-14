@@ -1,6 +1,10 @@
 ################################################################################################################
+# SSHBS_library.R contains all library parameters
+# SSHBS_initiation.R  reads in channel morphology & hydraulic inputs and constructs model channels and hydraulic profile
+# SSHBS_simulation.R (this file) starts stream ecosystem and flow simulations in the constructed and initiated model channels 
+################################################################################################################
 source('SSHBS_initiation.R')
-
+#
 ################################################################################################################
 outputFile = './test.csv'
 
