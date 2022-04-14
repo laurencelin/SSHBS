@@ -1,6 +1,6 @@
 arg=commandArgs(T)
 library(dplyr)
-source('stream_model_library.R')
+source('SSHBS_library.R')
 source('https://raw.githubusercontent.com/laurencelin/Date_analysis/master/LIB_dailytimeseries3.R')
 
 # https://www.researchgate.net/publication/277670582_R_function_to_convert_a_list_of_dataframes_into_a_3-D_array
