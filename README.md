@@ -9,7 +9,8 @@ Small Stream Hydro-Biogeochemistry Simulator (SSHBS)
 
 Workflow:
 - SSHBS_library.R contains all ecosystem parameters (review & update upon use)
-- SSHBS_initiation.R  reads in channel morphology & hydraulic inputs and constructs model channels and hydraulic profile; Please see the files in the input folder
+- SSHBS_initiation.R  reads in channel morphology & hydraulic inputs and constructs model channels and hydraulic profile; Please see the files in the input folder; 
+- - "GIS_channel_model_setup.csv" is the main input file listing all zones in a channel and corresponding zonal lateral inputs. 
 - SSHBS_simulation.R (this file) starts stream ecosystem and flow simulations in the constructed and initiated model channels; model outputs a csv file containing daily outputs per channel.
 
 
